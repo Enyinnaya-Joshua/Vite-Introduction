@@ -10,6 +10,11 @@ export interface iCard {
     title: string;
     ButtonTitle: string;
     onClick: ()=> void
+    sign: boolean;
+    request: boolean
+
+    text: string;
+    route: string;
 }   
     
 
